@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SACCO Portal</title>
+  <style>
+    body { font-family: sans-serif; max-width: 480px; margin: 60px auto; }
+    a { color:#06c; }
+  </style>
+</head>
+<body>
+  <h2>Welcome, {{ username }}</h2>
+  <p>Your account number is <strong>{{ acc_id }}</strong>.</p>
+  <p><a href="/account/{{ acc_id }}">View my account</a></p>
+  <p style="color:#666">Try changing the number in the URL to another
+     account (e.g. the other user's) to test the vulnerability.</p>
+  <p><a href="/logout">Log out</a></p>
+</body>
+</html>

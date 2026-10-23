@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Account {{ account['acc_id'] }}</title>
+  <style>
+    body { font-family: sans-serif; max-width: 480px; margin: 60px auto; }
+    .card { border:1px solid #ccc; border-radius:8px; padding:20px; }
+    .bal { font-size:1.6em; color:#070; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Account {{ account['acc_id'] }}</h2>
+    <p>Holder: <strong>{{ account['holder'] }}</strong></p>
+    <p class="bal">KES {{ '%.2f'|format(account['balance']) }}</p>
+  </div>
+  <p><a href="/">Back to home</a></p>
+</body>
+</html>
