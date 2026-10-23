@@ -1,6 +1,6 @@
-# SSE 2406 - Week 7 Lab: Broken Authorization (IDOR)
+# Lab: Broken Authorization (IDOR)
 
-**For teaching / lab-VM use only.** Run everything locally on 127.0.0.1.
+** Run everything locally on 127.0.0.1.
 
 ## What this is
 
